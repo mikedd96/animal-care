@@ -3,14 +3,31 @@ body {
   margin: 0;
 }
 
+.other-pages {
+  height: 100px;
+  background: rgba(23, 24, 26, 0.6);
+}
+
 .header-container {
   background-color: #faeeb6;
   border-top: 12px solid black;
   border-bottom: 4px solid black;
+  display: flex;
+  height: 60vh;
+}
+.header-container .titles {
+  width: 60%;
 }
 .header-container H1 {
   font-family: "Goldman";
-  font-size: large;
+  font-size: 5rem;
+  margin-bottom: 0;
+}
+.header-container h3 {
+  font-size: 2rem;
+}
+.header-container img {
+  width: 40%;
 }
 
 /*# sourceMappingURL=styles.css.map */
