@@ -30,4 +30,19 @@ body {
   width: 40%;
 }
 
+.page-nav {
+  background-color: black;
+}
+.page-nav ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.page-nav li {
+  display: inline;
+  color: blanchedalmond;
+  padding: 0 20px;
+  font-size: 1.75rem;
+}
+
 /*# sourceMappingURL=styles.css.map */

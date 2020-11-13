@@ -27,5 +27,18 @@ body {
     img {
         width: 40%
     }
-
+}
+.page-nav {
+    background-color: black;
+    ul {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    li {
+        display: inline;
+        color: blanchedalmond;
+        padding: 0 20px;
+        font-size: 1.75rem;
+    }
 }
