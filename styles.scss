@@ -46,6 +46,11 @@ body {
             font-family: "Alfa Slab One";
         }
     }
+    a {
+        display: contents;
+        cursor: pointer;
+
+    }
     .husbandry {
         background-image: url(../animal-care/images/care2.jpg);
         opacity: 95%;

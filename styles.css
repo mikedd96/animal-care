@@ -45,6 +45,10 @@ body {
   color: #6D5C0B;
   font-family: "Alfa Slab One";
 }
+.selects a {
+  display: contents;
+  cursor: pointer;
+}
 .selects .husbandry {
   background-image: url(../animal-care/images/care2.jpg);
   opacity: 95%;
