@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Goldman&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Goldman&family=Lato&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Goldman&family=Lato:ital,wght@0,400;1,700&family=Merriweather:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
 body {
   margin: 0;
   background-color: #faeeb6;
@@ -22,14 +23,59 @@ body {
   position: relative;
 }
 .selects .box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 70%;
   height: 100px;
   border: solid 2px black;
   border-radius: 15px;
   margin: 40px auto;
+  background-size: cover, contain;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.selects .box .tran-rect {
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.65);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #6D5C0B;
+  font-family: "Alfa Slab One";
+}
+.selects .husbandry {
+  background-image: url(../animal-care/images/care2.jpg);
+  opacity: 95%;
+}
+.selects .diet {
+  background-image: url(../animal-care/images/diet.jpg);
+  opacity: 80%;
+}
+.selects .reproduction {
+  background-image: url(../animal-care/images/reproduction2.jpg);
+  opacity: 95%;
+}
+.selects .about {
+  background-image: url(../animal-care/images/about.jpeg);
+  opacity: 95%;
+}
+.selects .difficulties {
+  background-image: url(../animal-care/images/difficulties.jpg);
+  opacity: 95%;
+}
+.selects .tips {
+  background-image: url(../animal-care/images/tips.jpg);
+  opacity: 80%;
+}
+.selects .behaviour {
+  background-image: url(../animal-care/images/behaviour.jpg);
+  opacity: 80%;
+}
+.selects .genetics {
+  background-image: url(../animal-care/images/genes.jpg);
+  opacity: 95%;
 }
 
 .titles {

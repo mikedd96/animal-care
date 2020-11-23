@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Goldman&family=Lato&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Goldman&family=Lato:ital,wght@0,400;1,700&family=Merriweather:ital@1&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
 
 body {
     margin: 0;
@@ -23,14 +23,60 @@ body {
         z-index: 2;
         position: relative;
     .box {
-        display: flex;
-        justify-content: center;
-        align-items: center;
         width: 70%;
         height: 100px;
         border: solid 2px black;
         border-radius: 15px;
         margin: 40px auto;
+        background-size: cover, contain;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .tran-rect {
+            height: 100%;
+            width: 100%;
+            border-radius: 15px;
+            background-color: rgba(255, 255, 255, 0.650);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #6D5C0B;
+            font-family: "Alfa Slab One";
+        }
+    }
+    .husbandry {
+        background-image: url(../animal-care/images/care2.jpg);
+        opacity: 95%;
+    }
+    .diet {
+        background-image: url(../animal-care/images/diet.jpg);
+        opacity: 80%;
+    }
+    .reproduction {
+        background-image: url(../animal-care/images/reproduction2.jpg);
+        opacity: 95%;
+    }
+    .about {
+        background-image: url(../animal-care/images/about.jpeg);
+        opacity: 95%;
+    }
+    .difficulties {
+        background-image: url(../animal-care/images/difficulties.jpg);
+        opacity: 95%;
+    }
+    .tips {
+        background-image: url(../animal-care/images/tips.jpg);
+        opacity: 80%;
+    }
+    .behaviour {
+        background-image: url(../animal-care/images/behaviour.jpg);
+        opacity: 80%;
+    }
+    .genetics {
+        background-image: url(../animal-care/images/genes.jpg);
+        opacity: 95%;
     }
 }
 
