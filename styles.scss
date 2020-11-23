@@ -5,18 +5,36 @@
 
 body {
     margin: 0;
+    background-color: #faeeb6;
 }
 .other-pages {
     height: 100px;
     background: rgba(23, 24, 26, 0.6);
 }
-.header-container {
-    background-color: #faeeb6;
-    border-top: 12px solid black;
-    border-bottom: 4px solid black;
-    display: flex;
-    height: 40vh;
-    .titles {
+.frontpage {
+    img {
+        position: fixed;
+        //top: 17.5%;
+        width: 100%;
+        bottom: 0;
+    }
+    }
+    .selects {
+        z-index: 2;
+        position: relative;
+    .box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        height: 100px;
+        border: solid 2px black;
+        border-radius: 15px;
+        margin: 40px auto;
+    }
+}
+
+   .titles {
         width: 60%;
     }
     H1 {
@@ -32,14 +50,11 @@ body {
         font-family: "Merriweather";
         font-style: italic;
     }
-    img {
-        width: 40%
-    }
     p {
         font-size: 12px;
         font-family: "Lato";
     }
-}
+
 .page-nav {
     background-color: black;
     ul {
@@ -82,9 +97,7 @@ body {
 }
 @media screen and (min-width: 600px) {
 
-    .header-container {
-        display: flex;
-        height: 60vh;
+
         .titles {
             width: 60%;
         }
@@ -96,10 +109,7 @@ body {
             font-size: 1.5rem;
             margin: 10px 0;
         }
-        img {
-            width: 40%
-        }
-    }
+
     .page-nav {
         background-color: black;
         color: blanchedalmond;
@@ -124,22 +134,41 @@ body {
 
 @media screen and (min-width: 1080px){
 
-    .header-container {
-       
+.frontpage {
+
+    .selects {
+        display: flex;
+
+        .left-selects {
+            width: 50%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .right-selects {
+            width: 50%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .box {
+
+            width: 40%;
+            height: 200px;
+            margin: 20px auto;
+        }
+    }
+}
         .titles {
             width: 60%;
         }
         H1 {
             font-size: 5rem;
-            margin-bottom: 0;
+            margin: 20px auto;
         }
         h3 {
             font-size: 2rem;
         }
-        img {
-            width: 40%
-        }
-    }
+
+
     .page-nav {
 
         ul {
@@ -157,7 +186,7 @@ body {
 
         .housing, .substrate, .heating, .water, .hides, .tongs {
             img {
-                width: 40%;
+                width: 20%;
             }
         }
         }

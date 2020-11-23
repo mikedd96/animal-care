@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Goldman&family=Lato:ital,wght@0,400;1,700&family=Merriweather:ital@1&display=swap");
 body {
   margin: 0;
+  background-color: #faeeb6;
 }
 
 .other-pages {
@@ -10,33 +11,47 @@ body {
   background: rgba(23, 24, 26, 0.6);
 }
 
-.header-container {
-  background-color: #faeeb6;
-  border-top: 12px solid black;
-  border-bottom: 4px solid black;
-  display: flex;
-  height: 40vh;
+.frontpage img {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
 }
-.header-container .titles {
+
+.selects {
+  z-index: 2;
+  position: relative;
+}
+.selects .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 100px;
+  border: solid 2px black;
+  border-radius: 15px;
+  margin: 40px auto;
+}
+
+.titles {
   width: 60%;
 }
-.header-container H1 {
+
+H1 {
   font-family: "Goldman";
   font-size: 35px;
   margin-bottom: 0;
   margin-top: 5%;
   line-height: 80%;
 }
-.header-container h3 {
+
+h3 {
   font-size: 20px;
   margin: 2% 0;
   font-family: "Merriweather";
   font-style: italic;
 }
-.header-container img {
-  width: 40%;
-}
-.header-container p {
+
+p {
   font-size: 12px;
   font-family: "Lato";
 }
@@ -82,23 +97,18 @@ body {
 }
 
 @media screen and (min-width: 600px) {
-  .header-container {
-    display: flex;
-    height: 60vh;
-  }
-  .header-container .titles {
+  .titles {
     width: 60%;
   }
-  .header-container H1 {
+
+  H1 {
     font-size: 3rem;
     margin-bottom: 0;
   }
-  .header-container h3 {
+
+  h3 {
     font-size: 1.5rem;
     margin: 10px 0;
-  }
-  .header-container img {
-    width: 40%;
   }
 
   .page-nav {
@@ -119,18 +129,36 @@ body {
   }
 }
 @media screen and (min-width: 1080px) {
-  .header-container .titles {
+  .frontpage .selects {
+    display: flex;
+  }
+  .frontpage .selects .left-selects {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .frontpage .selects .right-selects {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .frontpage .selects .box {
+    width: 40%;
+    height: 200px;
+    margin: 20px auto;
+  }
+
+  .titles {
     width: 60%;
   }
-  .header-container H1 {
+
+  H1 {
     font-size: 5rem;
-    margin-bottom: 0;
+    margin: 20px auto;
   }
-  .header-container h3 {
+
+  h3 {
     font-size: 2rem;
-  }
-  .header-container img {
-    width: 40%;
   }
 
   .page-nav ul {
@@ -143,7 +171,7 @@ body {
   }
 
   .writing .housing img, .writing .substrate img, .writing .heating img, .writing .water img, .writing .hides img, .writing .tongs img {
-    width: 40%;
+    width: 20%;
   }
 }
 
