@@ -104,6 +104,7 @@ body {
     p {
         font-size: 12px;
         font-family: "Lato";
+        color: #07165F;
     }
 
 .page-nav {
@@ -121,8 +122,18 @@ body {
         font-family: "Lato";
     }
 }
-.writing {
-    margin: 0 2rem;
+.writing {  
+    margin: auto 8rem;
+
+    .list {
+        color: #6D5C0B;
+        font-style: oblique;
+    }
+    .intro {
+        font-size: 20px;
+        color: #6D5C0B;
+        font-style: oblique;
+    }
     li {
         font-family: "Lato";
         font-weight: 400;
@@ -130,21 +141,28 @@ body {
     h4 {
         text-align: center;
         font-family: "Lato";
+        color: #6D5C0B;
+        font-size: 26px;
     }
     h5 {
         text-indent: 1rem;
         font-family: "Lato";
         font-size: 14;
+        color: #6D5C0B
     }
     p {
         line-height: 1.5;
         font-family: "Lato";
+        font-size: 16px;
     }
 .housing, .substrate, .heating, .water, .hides, .tongs {
     img {
         width: 40%;
     }
 }
+}
+.writing {
+
 }
 @media screen and (min-width: 600px) {
 

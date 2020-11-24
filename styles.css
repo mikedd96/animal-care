@@ -104,6 +104,7 @@ h3 {
 p {
   font-size: 12px;
   font-family: "Lato";
+  color: #07165F;
 }
 
 .page-nav {
@@ -123,7 +124,16 @@ p {
 }
 
 .writing {
-  margin: 0 2rem;
+  margin: auto 8rem;
+}
+.writing .list {
+  color: #6D5C0B;
+  font-style: oblique;
+}
+.writing .intro {
+  font-size: 20px;
+  color: #6D5C0B;
+  font-style: oblique;
 }
 .writing li {
   font-family: "Lato";
@@ -132,15 +142,19 @@ p {
 .writing h4 {
   text-align: center;
   font-family: "Lato";
+  color: #6D5C0B;
+  font-size: 26px;
 }
 .writing h5 {
   text-indent: 1rem;
   font-family: "Lato";
   font-size: 14;
+  color: #6D5C0B;
 }
 .writing p {
   line-height: 1.5;
   font-family: "Lato";
+  font-size: 16px;
 }
 .writing .housing img, .writing .substrate img, .writing .heating img, .writing .water img, .writing .hides img, .writing .tongs img {
   width: 40%;
