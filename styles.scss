@@ -5,7 +5,7 @@
 
 body {
     margin: 0;
-    background-color: #faeeb6;
+    background-color: #fff0ad;
 }
 .other-pages {
     height: 100px;
@@ -161,9 +161,21 @@ body {
     }
 }
 }
-.writing {
+table {
+    border: solid 4px #655407;
+    background-color: white;
+    border-radius: 15px;
 
 }
+.tablep {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+
+
 @media screen and (min-width: 600px) {
 
 

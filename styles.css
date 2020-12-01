@@ -4,7 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
 body {
   margin: 0;
-  background-color: #faeeb6;
+  background-color: #fff0ad;
 }
 
 .other-pages {
@@ -158,6 +158,20 @@ p {
 }
 .writing .housing img, .writing .substrate img, .writing .heating img, .writing .water img, .writing .hides img, .writing .tongs img {
   width: 40%;
+}
+
+table {
+  border: solid 4px #655407;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.tablep {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
 }
 
 @media screen and (min-width: 600px) {
