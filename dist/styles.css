@@ -1,0 +1,301 @@
+@import url("https://fonts.googleapis.com/css2?family=Goldman&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Goldman&family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Goldman&family=Lato:ital,wght@0,400;1,700&family=Merriweather:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+body {
+  margin: 0;
+  background-color: #fff0ad;
+}
+
+.other-pages {
+  height: 100px;
+  background: rgba(23, 24, 26, 0.6);
+}
+
+.frontpage img {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.selects {
+  z-index: 2;
+  position: relative;
+}
+.selects .box {
+  width: 70%;
+  height: 100px;
+  border: solid 2px black;
+  border-radius: 15px;
+  margin: 40px auto;
+  background-size: cover, contain;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.selects .box .tran-rect {
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.65);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #6D5C0B;
+  font-family: "Alfa Slab One";
+}
+.selects a {
+  display: contents;
+  cursor: pointer;
+}
+.selects .husbandry {
+  background-image: url(../animal-care/images/care2.jpg);
+  opacity: 95%;
+}
+.selects .diet {
+  background-image: url(../animal-care/images/diet.jpg);
+  opacity: 80%;
+}
+.selects .reproduction {
+  background-image: url(../animal-care/images/reproduction2.jpg);
+  opacity: 95%;
+}
+.selects .about {
+  background-image: url(../animal-care/images/about.jpeg);
+  opacity: 95%;
+}
+.selects .difficulties {
+  background-image: url(../animal-care/images/difficulties.jpg);
+  opacity: 95%;
+}
+.selects .tips {
+  background-image: url(../animal-care/images/tips.jpg);
+  opacity: 80%;
+}
+.selects .behaviour {
+  background-image: url(../animal-care/images/behaviour.jpg);
+  opacity: 80%;
+}
+.selects .genetics {
+  background-image: url(../animal-care/images/genes.jpg);
+  opacity: 95%;
+}
+
+.titles {
+  width: 60%;
+}
+
+H1 {
+  font-family: "Goldman";
+  font-size: 35px;
+  margin-bottom: 0;
+  margin-top: 5%;
+  line-height: 80%;
+}
+
+h3 {
+  font-size: 20px;
+  margin: 2% 0;
+  font-family: "Merriweather";
+  font-style: italic;
+}
+
+p {
+  font-size: 12px;
+  font-family: "Lato";
+  color: #07165F;
+}
+
+.page-nav {
+  background-color: black;
+}
+.page-nav ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.page-nav li {
+  display: inline;
+  color: blanchedalmond;
+  padding: 0 7px;
+  font-size: 12px;
+  font-family: "Lato";
+}
+
+.writing {
+  margin: auto 8rem;
+}
+.writing .list {
+  color: #6D5C0B;
+  font-style: oblique;
+}
+.writing .intro {
+  font-size: 20px;
+  color: #6D5C0B;
+  font-style: oblique;
+}
+.writing li {
+  font-family: "Lato";
+  font-weight: 400;
+}
+.writing h4 {
+  text-align: center;
+  font-family: "Lato";
+  color: #6D5C0B;
+  font-size: 26px;
+}
+.writing h5 {
+  text-indent: 1rem;
+  font-family: "Lato";
+  font-size: 14;
+  color: #6D5C0B;
+}
+.writing p {
+  line-height: 1.5;
+  font-family: "Lato";
+  font-size: 16px;
+}
+.writing .housing img, .writing .substrate img, .writing .heating img, .writing .water img, .writing .hides img, .writing .tongs img {
+  width: 40%;
+}
+
+table {
+  border: solid 4px #655407;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.tablep {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+}
+
+.container {
+  margin: 0 8rem;
+  margin-top: 2rem;
+  background: white;
+  border-radius: 15px;
+  box-shadow: -2px 6px 20px 0px #00000038;
+}
+.container h6 {
+  padding-left: 1rem;
+  margin: 0.5rem;
+  font-size: 14px;
+}
+.container p {
+  margin: 0rem 1rem;
+  padding: 1rem 0;
+  font-size: 14px;
+}
+.container img {
+  width: 10%;
+}
+
+.origin, .anatomy, .wild, .pied, .spider, .leucistic {
+  display: flex;
+}
+.origin p, .anatomy p, .wild p, .pied p, .spider p, .leucistic p {
+  width: 80%;
+}
+
+.tips {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+.tips p {
+  font-size: 16px;
+  border: 2px solid midnightblue;
+  border-radius: 15px;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  padding: 1rem;
+}
+
+.behaviour p {
+  text-indent: 2rem;
+}
+
+@media screen and (min-width: 600px) {
+  .titles {
+    width: 60%;
+  }
+
+  H1 {
+    font-size: 3rem;
+    margin-bottom: 0;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+
+  .page-nav {
+    background-color: black;
+    color: blanchedalmond;
+  }
+  .page-nav ul {
+    margin: 0;
+    padding: 0;
+  }
+  .page-nav li {
+    padding: 0 20px;
+    font-size: 1.75rem;
+  }
+
+  .writing .housing img, .writing .substrate img, .writing .heating img, .writing .water img, .writing .hides img, .writing .tongs img {
+    width: 30%;
+  }
+}
+@media screen and (min-width: 1080px) {
+  .frontpage .selects {
+    display: flex;
+  }
+  .frontpage .selects .left-selects {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .frontpage .selects .right-selects {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .frontpage .selects .box {
+    width: 40%;
+    height: 200px;
+    margin: 20px auto;
+  }
+
+  .titles {
+    width: 60%;
+  }
+
+  H1 {
+    font-size: 5rem;
+    margin: 20px auto;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  .page-nav ul {
+    margin: 0;
+    padding: 0;
+  }
+  .page-nav li {
+    padding: 0 20px;
+    font-size: 1.75rem;
+  }
+
+  .writing .housing img, .writing .substrate img, .writing .heating img, .writing .water img, .writing .hides img, .writing .tongs img {
+    width: 20%;
+  }
+}
