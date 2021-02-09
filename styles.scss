@@ -157,6 +157,7 @@ body {
     }
 .housing, .substrate, .heating, .water, .hides, .tongs {
     img {
+        margin-left: 2rem;
         width: 40%;
     }
 }
@@ -175,8 +176,7 @@ table {
     width: auto;
 }
 .container {
-    margin: 0 8rem;
-    margin-top: 2rem;
+    margin: 2rem;
     background: white;
     border-radius: 15px;
     box-shadow: -2px 6px 20px 0px #00000038;
@@ -196,7 +196,23 @@ table {
         width: 10%;
     }
 }
-.origin, .anatomy, .wild, .pied, .spider, .leucistic {
+.origin {
+    display: inline;
+    img {
+    width: 30%;
+    height: 30%;
+    float: right;
+    }
+}
+.anatomy {
+    display: inline;
+    img {
+    width: 30%;
+    height: 30%;
+    float: left;
+    }
+}
+.wild, .pied, .spider, .leucistic {
     display: flex;
     p {
         width: 80%;
@@ -218,12 +234,16 @@ table {
         padding: 1rem;
     }
 }
+.genetics img {
+    width: 33%;
+}
 
 .behaviour {
     p {
         text-indent: 2rem;
     }
 }
+
 
 @media screen and (min-width: 600px) {
 
@@ -260,6 +280,13 @@ table {
         }
     }
     }
+    .container {
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+}
+.genetics img {
+    width: 30%;
 }
 
 @media screen and (min-width: 1080px){
@@ -319,6 +346,20 @@ table {
                 width: 20%;
             }
         }
-        }
-    
+    }
+    .origin img { 
+        width: 20%;
+        height: 50%;
+    }
+    .anatomy img {
+        width: 20%;
+        height: 30%;
+    }
+    .container {
+        margin-left: 8rem;
+        margin-right: 8rem;
+    }
+    .genetics img {
+        width: 20%;
+    }
 }
